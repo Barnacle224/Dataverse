@@ -4,8 +4,8 @@ import {
   View,
   Text,
   TouchableOpacity,
-  Linking,
 } from 'react-native';
+import * as Linking from 'expo-linking';
 import { Feather } from '@expo/vector-icons';
 import { colors } from '../theme/colors';
 import { spacing, spacingPresets } from '../theme/spacing';

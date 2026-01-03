@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, View, Text, TouchableOpacity, Linking } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
+import * as Linking from 'expo-linking';
 import Card from '../components/Card';
 
 export default function Contact() {
