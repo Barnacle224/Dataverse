@@ -6,6 +6,7 @@ import {
   View,
   Text,
 } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
 import HeroSection from './src/components/HeroSection';
 import AboutSection from './src/components/AboutSection';
 import ProjectsSection from './src/components/ProjectsSection';
@@ -17,6 +18,7 @@ import { typography, typographyPresets } from './src/theme/typography';
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
+      <StatusBar barStyle="light-content" />
       <ScrollView
         style={styles.scrollView}
         showsVerticalScrollIndicator={false}
